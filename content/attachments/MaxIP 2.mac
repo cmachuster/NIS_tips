@@ -1,2 +1,0 @@
-// this is a one line shortcut macro to create a MaxIP in Z
-ND_CreateMaxIntProjectionImageZ();
