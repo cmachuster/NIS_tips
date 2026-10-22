@@ -1,3 +1,7 @@
+---
+title: README
+---
+
 This repository propose some tips and tricks to help install and configure NIS.
 
 ---
