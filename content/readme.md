@@ -46,7 +46,7 @@ You can copy the files as such or get inspiration from them.
 The **[[NIS_install]]** is a convenient tool for fesh NIS installs.
 The folder includes files that have to be installed in `C:/Nikon Service`
 
-> [! WARNING] 
+> [!WARNING] 
 > mind the spelling of Nikon Service
 
 Then from NIS it will be possible to run a macro `Layout configuration.mac` that will install a default layout and set NIS windows a nice way :)

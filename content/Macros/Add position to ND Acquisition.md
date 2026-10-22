@@ -27,5 +27,5 @@ The user can then register position to NIS while looking for the sample through 
 The most commonly used Fn button is the "FnL" button and the bottom left part of the microscope.
 
 > [!IMPORTANT] 
-> .mac file can be downloaded [here](https://github.com/cmachuster/NIS/blob/main/attachments/Add_position_2_ND.mac) 
+> .mac file can be downloaded [here](https://github.com/cmachuster/NIS_tips/blob/main/attachments/Add_position_2_ND.mac) 
 
