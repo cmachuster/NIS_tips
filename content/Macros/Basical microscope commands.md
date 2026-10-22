@@ -1,5 +1,5 @@
 ---
-title: Basic Commands
+title: Basic Microscope Commands
 ---
 
 This commands and/macros can be used independently or as a [[Macro_buttons|macro button]]
@@ -48,12 +48,6 @@ Stg_SetPFSLensOffsetPosition(7420);
 ```
 
 The value ==7420== is the middle of the offset lens range
-
-## Stitching
-
-```c
-ND_StitchMultipoint(0,0,0,1,1);
-```
 
 ## AZ100M Zoom control
 

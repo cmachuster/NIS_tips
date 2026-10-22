@@ -24,8 +24,8 @@ In this section we will present basic macros and commands to be used automatical
 1. [[Add position to ND Acquisition|Adding positionw to "ND acquisition"]]
 2. [[Restore Macro|Restore Layouts and/or Optical configurations]]
 3. Automatically adjust Crest X-Light V3 Emission Iris with objectives
-4. [[Basical commands|Basical microscope motion commands (Escape, )]]
-5. Basical ND manipulation commands (MaxIP, Stitching...)
+4. [[Basical microscope commands|Basical microscope motion commands (Escape, )]]
+5. [[Basical analysis commands|Basical ND manipulation commands (MaxIP, Stitching...)]]
 6. 
 
 You can copy the files as such or get inspiration from them.
