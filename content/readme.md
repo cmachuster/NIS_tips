@@ -13,7 +13,7 @@ This repository propose some tips and tricks to help install and configure NIS.
 3. Backuping Optical Configurations and Layouts
 4. Macros :
 	1. [[Macro_buttons|Creating a "Macro button"]]
-	2. setting Macros on Events
+	2. [[Run Macro on Events|Setting Macros on Events]]
 
 ---
 
