@@ -1,15 +1,17 @@
+---
+title: Basic Commands
+---
 
 This commands and/macros can be used independently or as a [[Macro_buttons|macro button]]
-## close all documents
+## close all opened documents
 
 ```c
 CloseAllDocuments(0);
 ```
 
-## Enable ROI at startup
+## Enable camera ROI
 
-> [!NOTE]
-> commonly used to force a ROI as [[Run Macro on Events|Macro on Event]] on NIS startup
+commonly used to force a camera crop ROI as [[Run Macro on Events|Macro on Event]] on NIS startup when the camera FOV is larger than the microscope
 
 ```c
 char name[256];
@@ -22,6 +24,12 @@ if(strcmp(name,""))
 }
 ```
 
+>[!tip] The `ROISet`command set the size and position of the camera crop with the following arguments being (in there order in the paranthesis):
+>- the x-coordinate of the top-left corner of the rectangle
+>- the y-coordinate of the top-left corner of the rectangle
+>- the x-coordinate of the bottom-right corner of the rectangle
+>- the y-coordinate of the bottom-right corner of the rectangle
+
 ## Getting in and out of Escape
 
 ```c
@@ -33,8 +41,7 @@ StgZ_Refocus();
 
 ## PSF Resetting
 
->[!NOTE]
-> This command is commonly used to reset the PFS to the middle of its range when it went too far
+This command is commonly used to reset the PFS to the middle of its range when it went too far
 
 ```c
 Stg_SetPFSLensOffsetPosition(7420);
