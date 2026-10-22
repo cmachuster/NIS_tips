@@ -2,7 +2,7 @@
 title: 🏠 Homepage
 ---
 
-This repository propose some tips and tricks to help install and configure NIS.
+This repository proposes some tips and tricks to help install and configure NIS.
 
 ---
 
