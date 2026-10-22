@@ -14,7 +14,7 @@ This repository proposes some tips and tricks to help install and configure NIS.
 4. Macros :
 	1. [[Macro_buttons|Creating a "Macro button"]]
 	2. [[Run Macro on Events|Setting Macros on Events]]
-
+	3. assign Macro to function button
 ---
 
 ## 👾 Macros / Commands
