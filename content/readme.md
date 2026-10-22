@@ -1,12 +1,12 @@
 ---
-title: README
+title: 🏠 Homepage
 ---
 
 This repository propose some tips and tricks to help install and configure NIS.
 
 ---
 
-## NIS tips / help
+## 💡 NIS tips / help
 
 1. Motorized stage calibration
 2. Optical Configuirations - notions
@@ -17,7 +17,7 @@ This repository propose some tips and tricks to help install and configure NIS.
 
 ---
 
-## Macros / Commands
+## 👾 Macros / Commands
 
 In this section we will present basic macros and commands to be used automatically or when you'll need them.
 
@@ -41,7 +41,7 @@ You can copy the files as such or get inspiration from them.
 
 - - - 
 
-## Install folder
+## 🏗️ Install folder
 
 The **[[NIS_install]]** is a convenient tool for fesh NIS installs.
 The folder includes files that have to be installed in `C:/Nikon Service`
@@ -55,7 +55,7 @@ Some GA3 functions are also included (as well as the method to install them in N
 
 ---
 
-## Dr. Seishu
+## 🩺 Dr. Seishu
 ![[DrSeishu.gif]]
 
 `HowToDrSeishu.pdf` is the instruction file to download the last version of Dr.Seishu and to configure it for crash and/or bug reporting.
