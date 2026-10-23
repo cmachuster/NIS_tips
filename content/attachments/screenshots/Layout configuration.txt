@@ -1,0 +1,19 @@
+////////NIS Windows Management
+
+//Force the Live image to Fit the screen, not being in 1:1 per default
+SetMultiWindowLiveZoom100(0);
+
+//Make that the image frame deosn't change size when zooming
+KeepPicWndAspect(0);
+
+//Layout installation
+RestoreLayoutsEx("C:\Nikon Service\NIS_install\default_layout.xml",1);
+ 
+//Move the temp folder automatically to D:\temp\
+_SetTempFilesPathForNextSession("D:\temp\");
+
+//Change the rescaling method to spline
+SetRescalingMethod(2);
+
+//Uncheck parallel device movement for JOBs
+Jobs_SetParallelDeviceMovement(0);

@@ -2,7 +2,7 @@
 title: Basic Microscope Commands
 ---
 
-This commands and/macros can be used independently or as a [[Macro_buttons|macro button]]
+This commands and/macros can be used independently or as a [[Macro buttons|macro button]]
 ## close all opened documents
 
 ```c

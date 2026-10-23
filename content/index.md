@@ -11,10 +11,13 @@ This repository proposes some tips and tricks to help install and configure NIS.
 1. Motorized stage calibration
 2. Optical Configuirations - notions
 3. Backuping Optical Configurations and Layouts
-4. Macros :
-	1. [[Macro_buttons|Creating a "Macro button"]]
+4. Making sure parafocality is ON with Ti2E in NIS
+5. Adjusting Auto-LUT default settings
+6. Macros :
+	1. [[Macro buttons|Creating a "Macro button"]]
 	2. [[Run Macro on Events|Setting Macros on Events]]
 	3. assign Macro to function button
+	4. Command History
 ---
 
 ## 👾 Macros / Commands
@@ -26,7 +29,7 @@ In this section we will present basic macros and commands to be used automatical
 3. Automatically adjust Crest X-Light V3 Emission Iris with objectives
 4. [[Basical microscope commands|Basical microscope motion commands (Escape, )]]
 5. [[Basical analysis commands|Basical ND manipulation commands (MaxIP, Stitching...)]]
-6. 
+6. Performing "TIRF" angles-stacks acquisition
 
 You can copy the files as such or get inspiration from them.
 
@@ -56,7 +59,9 @@ Some GA3 functions are also included (as well as the method to install them in N
 
 ### NIS administration tips
 1. [[Temp Folder|NIS temporary folder]]
-2. 
+2. LightPath tricks
+3. Moving and Managing JOBS Database
+4. 
 
 ---
 
