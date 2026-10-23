@@ -27,4 +27,4 @@ This macro is especially suited to one of the Ti2E function button (see [[Macro 
 The user can then register position to NIS while looking for the sample through the eyepiece.
 
 >[!tip]
-The most commonly used Fn button is the "FnL" button and the bottom left part of the microscope.
+>The most commonly used Fn button is the "FnL" button and the bottom left part of the microscope.

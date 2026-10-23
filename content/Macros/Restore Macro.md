@@ -1,6 +1,7 @@
 
 > [!INOTE]
 > This Macro is design to reload silently (without questions from NIS) backup files of the stored Layouts and Optical Configurations
+> It is often used at NIS startup or shutdown via the [[Run Macro on Events]] option
 
 ```c
 // Restore Layout

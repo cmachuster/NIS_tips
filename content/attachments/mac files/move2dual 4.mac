@@ -1,4 +1,0 @@
-// This one line command forces the the change Setup then HW configuration
-// Setup name (here "Nikon Ti2") and HW Configuration (here "Dual Cam") can be found at the top of the Device Manager Window
-// -> it forces the switch to Dual Cam HW
-SelectSetupAndHWConfigurationNoDialog("Nikon Ti2","Dual Cam");

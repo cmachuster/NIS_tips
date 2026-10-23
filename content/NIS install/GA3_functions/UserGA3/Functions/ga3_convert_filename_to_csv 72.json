@@ -1,0 +1,19 @@
+[
+	{
+	"className" : "cz.lim.ga3.node.Function",
+	"uniqueTypeName" : "ga3_convert_filename_to_csv",
+	"defaultName" : "Convert Filename to CSV",
+
+	 "displayInfo" : {
+		"category" : "Reference",
+		"group" : "Export",
+		"name" : "Convert Filename to CSV"
+		},
+
+	"implementation" : {
+		"location" : "function",
+		"resource" : "ga3_convert_filename_to_csv.bin",
+		"selfcontained" : true
+		}
+	}
+]
