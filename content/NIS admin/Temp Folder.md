@@ -18,7 +18,9 @@ To avoid to slow the workstation make sure that the temp folder, is located on o
 To change the location of the temp folder a macro command can be used 
 ```c
 // Move the temp folder automatically to D:\temp\
+
 SetTempFilesPathForNextSession("D:\temp\");
+
 ```
 
 >[!warning] Starting with NIS 6.20
