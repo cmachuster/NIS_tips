@@ -24,21 +24,9 @@ ex : `RestoreOptConfEx(« C:\Nikon Service\xxx », 1); RestoreLayoutsEx(« C:
 
 <img src="Macro-on-event-4.png" width="400">
 
-This two commands will loads the .xmlfiles for the layouts and OCs overwriting the actual ones without asking any questions (because of the 1argument at the end)
+This two commands will loads the .xml files for the layouts and OCs (see [[How to backup Layouts and OCs]]) overwriting the actual ones without asking any questions (because of the 1argument at the end)
 
-#### explaination of the commands
-##### `RestoreLayoutsEx(« C:\Nikon Service\xxx », 1);`
->[!quote] details on the option (last value)
->- 0 - Opens a dialog window and asks the user what to do
->- 1 - Overwrites the old layout with the new one
->- 2 - Does not import the new layout
->- 3 - Imports the new layout and renames it automatically (appends an index numbers)
+>[!note] the details of this command can be found in the [[Restore Macro]] page
 
-##### `RestoreOptConfEx(« C:\Nikon Service\xxx », 1);`
->[!quote] details on the option (last value)
->- 0 - Opens a dialog window and asks the user what to do
->- 1 - Overwrites the old layout with the new one
->- 2 - Does not import the new configuration
->- 3 - Imports the new configuration and renames it automatically (appends an index numbers)
->- 4 - Deletes the current configuration and then loads the new configuration
+
 

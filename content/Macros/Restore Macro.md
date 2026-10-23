@@ -15,5 +15,18 @@ ND_ResetZSeriesExp;
 ND_ResetLambdaExp;
 ```
 
-> [!IMPORTANT] 
-> .mac file can be downloaded [here](https://github.com/cmachuster/NIS/blob/main/attachments/Restore_Macro.mac) 
+## explaination of the commands
+#### `RestoreLayoutsEx(« C:\Nikon Service\xxx », 1);`
+>[!quote] details on the option (last value)
+>- 0 - Opens a dialog window and asks the user what to do
+>- 1 - Overwrites the old layout with the new one
+>- 2 - Does not import the new layout
+>- 3 - Imports the new layout and renames it automatically (appends an index numbers)
+### `RestoreOptConfEx(« C:\Nikon Service\xxx », 1);`
+>[!quote] details on the option (last value)
+>- 0 - Opens a dialog window and asks the user what to do
+>- 1 - Overwrites the old layout with the new one
+>- 2 - Does not import the new configuration
+>- 3 - Imports the new configuration and renames it automatically (appends an index numbers)
+>- 4 - Deletes the current configuration and then loads the new configuration
+
