@@ -36,9 +36,12 @@ To investigate the origin of software and hardware malfunction, the support team
 - **Run Dr Seishu on application crashes** : Checking this option will replace for Nikon software the standard WER (windows error reporting) handler by the DrSeishu Report Wizard. When NIS crashes, the Dr Seishu Report Wizard will pop up automatically and allow you to create and submit a trouble report. The report will include the NIS memory dump, which is crucial for the developers to investigate the incident. 
 - **Include Services** : By default, Windows does not handle crashes of programs that are invisible. Check this option to invoke DrSeishu also upon NIS crashes when the main NIS windows is not visible. 
 - **NIS General Logging** : This option corresponds to the NIS-Elements menu ‘Help | Enable Logging’. In case of problems, this option must be enabled. 
-- NIS Device Communication Logging : This option will make that NIS records the communication with all devices to the log files. If there is an indication that communication with devices fails, this option should be enabled. 
-- NIS Qt Logging: NIS uses the Qt library to draw the graphical user interface. If there are problems with how NIS draws the control widgets in the control panels, this option should be enabled. Note: Qt logging is very verbose and will blow up the size of the log files. Enable this option only in case of problems with the graphical user interface. 
+- **NIS Device Communication Logging** : This option will make that NIS records the communication with all devices to the log files. If there is an indication that communication with devices fails, this option should be enabled. 
+- **NIS Qt Logging** : NIS uses the Qt library to draw the graphical user interface. If there are problems with how NIS draws the control widgets in the control panels, this option should be enabled. Note: Qt logging is very verbose and will blow up the size of the log files. Enable this option only in case of problems with the graphical user interface. 
 
 All other logging options are dedicated to a certain device brand/model. Only check the logging options that seem to be relevant to the problems you encounter. 
 
 Some logging activities will slow down NIS noticeably. After creating and submitting a trouble report, these logging options can be switched off to restore normal NIS performance.
+
+## Report an Issue
+![[Seishu Configure - report.png|300]]
