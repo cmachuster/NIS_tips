@@ -1,4 +1,5 @@
 
+## Context
 A macro has been developped to speed up the setup of NIS after the installation.
 
 A folder « NIS_install » is available on the common « SAS Service Training » folder and has to be copy/pasted to the « Nikon Service » folder.
