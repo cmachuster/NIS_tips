@@ -1,8 +1,9 @@
 
-> [!INOTE]
+> [!NOTE]
 > This Macro is design to reload silently (without questions from NIS) backup files of the stored Layouts and Optical Configurations
 > It is often used at NIS startup or shutdown via the [[Run Macro on Events]] option
 
+## code
 ```c
 // Restore Layout
 RestoreLayoutsEx(« C:\Nikon Service\xxx », 1);
@@ -18,7 +19,10 @@ ND_ResetLambdaExp;
 
 ## explanation of the commands
 
+### RestoreLayouts and RestoreOptConf
+
 RestoreLayoutsEx and RestoreOptConfEx will reload the `.xml` files containing the backups (see [[How to backup Layouts and OCs]] ) of respectively the Layouts and the Optical configurations.
+
 The "Ex" versions of this command unlock argument choices that can be useful, such as the "1" argument that bypass the confirmation prompt when reloading backup files.
 
 Below are the explanation of the arguments
@@ -35,4 +39,20 @@ Below are the explanation of the arguments
 >- 2 - Does not import the new configuration
 >- 3 - Imports the new configuration and renames it automatically (appends an index numbers)
 >- 4 - Deletes the current configuration and then loads the new configuration
+### Emptying the "ND Acquisition" tabs
 
+The commands :
+```c
+ND_ResetMultipointExp;
+ND_ResetTimeExp;
+ND_ResetZSeriesExp;
+ND_ResetLambdaExp;
+```
+Will respectively reset the XY, Time, Z and Lambda tabs of the "ND Acquisition" panel.
+If this behavior is not required this lines can be deleted or commented out by adding `//` at the beginning of each lines as such:
+```c
+//ND_ResetMultipointExp;
+//ND_ResetTimeExp;
+//ND_ResetZSeriesExp;
+//ND_ResetLambdaExp;
+```
