@@ -5,7 +5,7 @@ A folder « NIS_install » is available on the common « SAS Service Training
 
 >[!danger] the « Nikon Service » spelling is important
 
-<img src="Install macro.png" width="300">
+![[Install macro.png]]
 
 The « NIS_install » folder contains :
 -  a default layout that will be loaded when the macro will be launched
