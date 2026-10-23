@@ -1,0 +1,19 @@
+[
+	{
+	"className" : "cz.lim.ga3.node.Function",
+	"uniqueTypeName" : "ga3_csv_from_source_folder_name",
+	"defaultName" : "Source Folder to CSV name",
+
+	 "displayInfo" : {
+		"category" : "Reference",
+		"group" : "Export",
+		"name" : "Source Folder to CSV name"
+		},
+
+	"implementation" : {
+		"location" : "function",
+		"resource" : "ga3_csv_from_source_folder_name.bin",
+		"selfcontained" : true
+		}
+	}
+]

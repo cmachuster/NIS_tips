@@ -9,5 +9,5 @@
 6. Macros :
 	1. [[Macro buttons|Creating a "Macro button"]]
 	2. [[Run Macro on Events|Setting Macros on Events]]
-	3. assign Macro to function button
+	3. [[Macro buttons|Assign Macro to function button]]
 	4. [[Command History]]

@@ -1,0 +1,2 @@
+// The one line command open the menu to set the mouse wheel sensitivity when using it to change the focus in live
+_Stg_SetupMouseJoystickZ();
