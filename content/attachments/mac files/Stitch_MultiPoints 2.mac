@@ -1,0 +1,47 @@
+// This Macro generates a stitched Large Image from a Multipoint image.
+// Two commands are proposed depending of the stitching algorithm desired and/or if the user has the G3 plugin installed
+
+
+// Without GA3
+//ND_StitchMultipoint(
+//  int  StitchNDMethod,
+//	0 -> Blending - images will be blended into each other.
+//	1 -> Optimal path - the algorithm computes a path between the images where both images are least different and removes the outer areas.
+//  int  StitchNDPostProcess,
+//	0 -> No post-processing.
+//	1 -> Apply at least the shading correction.
+//  int  StitchNDShadingType,
+//	0 -> Brightfield
+//	1 -> DIC-like
+//	2 -> Fluorescence (with offset)
+//  int  StitchNDShadingOffset,
+//	Set the offset value to be subtracted from the image before applying the fluorescence correction.
+//  int  StitchNDRegistration
+//	0 -> Image registration OFF.
+//	1 -> Image registration ON.
+//);
+
+ND_StitchMultipoint(0,0,2,0,1);
+                           
+// stitching from Multi-point using GA3 method -> GA3 plugin required
+//ND_StitchMultipointGa3(
+//  int  iStitchingMethod,
+//	0 -> Blending
+//	1 -> Optimal Path
+//  int  iRegistration,
+//	0 -> Off
+//	1 -> On
+//  int  iAutoShadingCorrection,
+//	0 -> Off
+//	1 -> On
+//  int  iType,
+//  int  NDDimension
+//	0 -> Current frame
+//	1 -> Time dimension
+//	2 -> Multipoint dimension
+//	4 -> Z dimension
+//	15 -> All frames (the whole ND document).
+//	16 -> Selection - the frames/dimensions selected by mouse within the ND control bar will be affected.
+//);
+
+// ND_StitchMultipointGa3(0,1,0,0,15);

@@ -1,6 +1,9 @@
 
-Macros are files containing commands written in a C language variant
+Macros are files containing commands written in a C language variant.
 
+
+
+In the example given in the following pages, the codes should be copied (by clicking on the top-right icon) and saved in a notepad application.
 ## summary
 
 1. [[Add position to ND Acquisition|Adding positionw to "ND acquisition"]]
