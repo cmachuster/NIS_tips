@@ -7,11 +7,10 @@ In the examples given in the following pages, the codes should be copied (by cli
 You can copy the files as such or get inspiration from them.
 
 > [!IMPORTANT]
-> in order to run in NIS the file extension has to be `.mac`
-
+> In order to run in NIS the macro file extension has to be `.mac`.
+> -> You can copy the following Macros or commands in a notpad application and saving the files with the `.mac` extension
 
 ## summary
-
 1. [[Add position to ND Acquisition|Adding positionw to "ND acquisition"]]
 2. [[Restore Macro|Restore Layouts and/or Optical configurations]]
 3. Automatically adjust Crest X-Light V3 Emission Iris with objectives

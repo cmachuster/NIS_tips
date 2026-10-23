@@ -40,7 +40,6 @@ Below are the explanation of the arguments
 >- 3 - Imports the new configuration and renames it automatically (appends an index numbers)
 >- 4 - Deletes the current configuration and then loads the new configuration
 ### Emptying the "ND Acquisition" tabs
-
 The commands :
 ```c
 ND_ResetMultipointExp;

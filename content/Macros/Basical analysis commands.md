@@ -20,6 +20,5 @@ ND_CreateMaxIntProjectionImageZ()
 ```
 
 ## Combining singles images into a Multi-point ND file
-
-![[Merging opened documents into a multipoint ND#^065ab3]]
+![[Merging opened documents into a multipoint ND#^d668ad]]
 ![[Merging opened documents into a multipoint ND#^6df04b]]

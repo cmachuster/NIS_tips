@@ -1,9 +1,7 @@
 
 ## code 
 
-> [!IMPORTANT] To convert multiple single images into a multi-point ND
-
-^065ab3
+This macro was used to fuse multiple snapshots (without Z or time points) but with the same amount of channels into ONE single multi-point ND file. ^d668ad
 
 ```c
 // Open the choice menu of documents to merge -> they will be merged as timelapse
