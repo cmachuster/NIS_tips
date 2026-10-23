@@ -19,3 +19,10 @@ To avoid to slow the workstation make sure that the temp folder, is located on o
 >SetTempFilesPathForNextSession("D:\temp\");
 >```
 
+>[!warning] Starting with NIS 6.20
+>An Option to change the location of the Temp folder for NIS-Elements has been added to the installer wizard. (Local Options only)
+>
+>![[NIS620_temp_folder_in_wizard.png]]
+
+
+
