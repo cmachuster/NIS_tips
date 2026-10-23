@@ -19,7 +19,7 @@ To change the location of the temp folder a macro command can be used
 ```c
 // Move the temp folder automatically to D:\temp\
 
-SetTempFilesPathForNextSession("D:\temp\");
+_SetTempFilesPathForNextSession("D:\temp\");
 
 ```
 
