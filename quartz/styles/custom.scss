@@ -6,3 +6,11 @@ a.internal {
   background-image: none !important;
   box-shadow: none !important;
 }
+
+a.internal[href] {
+  // Keep ordinary internal links unchanged
+}
+
+.transclude a.internal {
+  display: none;
+}
