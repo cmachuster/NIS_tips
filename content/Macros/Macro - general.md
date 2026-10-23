@@ -1,9 +1,15 @@
 
 Macros are files containing commands written in a C language variant.
+The file extension of a NIS macro is `.mac`.
+
+In the examples given in the following pages, the codes should be copied (by clicking on the top-right icon) and saved in a notepad application.
+
+You can copy the files as such or get inspiration from them.
+
+> [!IMPORTANT]
+> in order to run in NIS the file extension has to be `.mac`
 
 
-
-In the example given in the following pages, the codes should be copied (by clicking on the top-right icon) and saved in a notepad application.
 ## summary
 
 1. [[Add position to ND Acquisition|Adding positionw to "ND acquisition"]]

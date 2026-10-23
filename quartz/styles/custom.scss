@@ -11,6 +11,7 @@ a.internal[href] {
   // Keep ordinary internal links unchanged
 }
 
-.transclude a.internal {
-  display: none;
+// Hide only the "Link to original" link
+a.transclude-src {
+  display: none !important;
 }

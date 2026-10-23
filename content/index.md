@@ -18,11 +18,6 @@ In this section we will present basic macros and commands to be used automatical
 
 ![[Macro - general#summary]]
 
-You can copy the files as such or get inspiration from them.
-
-> [!IMPORTANT]
-> in order to run in NIS the file extension has to be `.mac`
-
 - - -
 
 ## JOBS 
