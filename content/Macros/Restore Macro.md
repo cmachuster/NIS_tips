@@ -15,7 +15,12 @@ ND_ResetZSeriesExp;
 ND_ResetLambdaExp;
 ```
 
-## explaination of the commands
+## explanation of the commands
+
+RestoreLayoutsEx and RestoreOptConfEx will reload the `.xml` files containing the backups (see [[How to backup Layouts and OCs]] ) of respectively the Layouts and the Optical configurations.
+The "Ex" versions of this command unlock argument choices that can be useful, such as the "1" argument that bypass the confirmation prompt when reloading backup files.
+
+Below are the explanation of the arguments
 #### `RestoreLayoutsEx(« C:\Nikon Service\xxx », 1);`
 >[!quote] details on the option (last value)
 >- 0 - Opens a dialog window and asks the user what to do

@@ -65,6 +65,12 @@ Some GA3 functions are also included (as well as the method to install them in N
 
 ---
 
+## 📏 Metrology tips 
+
+🚧 under construction 🚧
+
+- - -
+
 ## 🩺 Dr. Seishu
 ![[DrSeishu.gif]]
 
