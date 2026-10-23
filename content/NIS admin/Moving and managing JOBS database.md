@@ -4,14 +4,10 @@ For NIS installation with the JOBS plugin it is worth paying attention to where 
 
 By default all the JOBS scripts and the images acquired by them will be saved in a JOBS database folder located in `C:\ProgramData\Laboratory Imaging\Jobs\jobsdb.dat`.
 
-<div style="text-align: center;">
   <img src="JOBS_explorer-35.png" width="300">
-</div>
 >_Example of database containing folder with the_ _.datfile and the image/scripts containing Project folder_
 
-<div style="text-align: center;">
   <img src="JOBS_explorer-4.png" width="300">
-</div>
 >_Example of image containing folder named by date_time of the acquisition_ 
 
 >[!note] JOBS database structure
