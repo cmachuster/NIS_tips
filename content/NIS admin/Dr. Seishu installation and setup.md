@@ -21,7 +21,7 @@ To start DrSeishu quickly in case of problems, it is best to pin it to the taskb
 
 ## Configure Contact Information
 ![[Seishu Configure - contact.png|300]]
-During installation you will be prompted to enter the contact information. The Nikon Support Team will use this information to reach out to you after submitting a trouble report. The information can be modified later by pressing the ‘Configure Contact Information’ button.
+During installation you will be prompted to enter the contact information. The Nikon Support Team will use this information to reach out to you after submitting a trouble ireport. The information can be modified later by pressing the ‘Configure Contact Information’ button.
 
 ![[Seishu Configure - contact - 2.png|400]]
 
