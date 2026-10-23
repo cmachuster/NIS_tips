@@ -41,9 +41,10 @@ You can copy the files as such or get inspiration from them.
 
 - - - 
 
-## 🏗️ Install folder
+## 🏗️ Install folder and NIS admin
 
-The **[[NIS_install]]** is a convenient tool for fesh NIS installs.
+### setup NIS after installation
+The **[[NIS_install]]** is a convenient tool for fresh NIS installs.
 The folder includes files that have to be installed in `C:/Nikon Service`
 
 > [!WARNING] 
@@ -52,6 +53,10 @@ The folder includes files that have to be installed in `C:/Nikon Service`
 Then from NIS it will be possible to run a macro `Layout configuration.mac` that will install a default layout and set NIS windows a nice way :)
 
 Some GA3 functions are also included (as well as the method to install them in NIS) to easily save table in `.csv` for batch run (or individual run)
+
+### NIS administration tips
+1. [[Temp Folder|NIS temporary folder]]
+2. 
 
 ---
 
