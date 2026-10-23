@@ -1,15 +1,23 @@
 ---
 title: Basic Image Analysis Commands
 ---
-## Stitching
+## Stitching a Multi-point image into a Large Image
 
-This command is as
-
+This command exist in two version depending of the presence of the General Analysis 3 (GA3), see [[Stitching Multi-points]].
+Here is the generic version of this command :
 ```c
 ND_StitchMultipoint(0,0,0,1,1);
 ```
 
+For further explanation of the arguments, please refer to this section : [[Stitching Multi-points#explanation of the command arguments|explanation of the command arguments without GA3]]
 ## MaxIP
+
+This command will generate a new ND file as the Z maximum intensity projection or MIP / MaxIP.
+The operation will take place even in multi-dimension files (with time and/or multi-positions)
+
+```c
+ND_CreateMaxIntProjectionImageZ()
+```
 
 ## Combining singles images into a Multi-point ND file
 
