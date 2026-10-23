@@ -1,8 +1,10 @@
 ---
 title: 🏠 Homepage
 ---
+![[NIS_logo.png]]
+- - -
 
-This repository proposes some tips and tricks to help install and configure NIS.
+This repository proposes some tips and tricks to help install and configure NIS and more generally is meant to help using your Nikon system optimally
 
 ---
 
