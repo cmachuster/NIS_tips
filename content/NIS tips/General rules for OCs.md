@@ -32,16 +32,25 @@ by setting them manually on the microscope or the Acquisition Panel.
 ### Optical configuration window
 
 The "Optical configuration" Window should pop out:
-![[OC - creation - annotated.png|600]]
+![[OC - creation - annotated_numbered.png|300]]
 
 This window is very important to make sure the OC behave the way you want it. 
 It basically gives the choice to set what part of microscope should move when you click on it and/or how the resulting image should look like.
 Here are some descriptions of this window :
-1. ==🔴Name== : gives the name of the OC itself
-2. ==🔴Name== : gives the name
+1. Name of the OC : gives the name of the OC itself
+2. Camera Settings : If clicked the OC will remember the settings of the camera, such as the binning or the readout mode. If the "Use Stored ROI" box is ticked, the OC will also remember the crop of the camera (if you want to force it)
+3. Channel Setup : If clicked 
+4. Name of the channel: gives the name of the channel that will be recorded in the metadata and displayed in the acquired image
+![[NIS_image_window_annotated.png|200]]
+5. Channel false color :
+6. Microscope setting :
+7. Used devices : 
 
 
-3. Configure the optical hardware.
+
+
+
+8. Configure the optical hardware.
 Set the relevant optical components to the required positions, including excitation and emission filters, dichroic mirrors, shutters, light-path selectors, and other motorized devices available in the system.    
 3. Configure the associated acquisition hardware.
 Select the appropriate detector or camera path and any hardware settings that need to be associated with the imaging mode.    
