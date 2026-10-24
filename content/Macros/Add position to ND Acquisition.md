@@ -31,4 +31,4 @@ The user can then register position to NIS while looking for the sample through 
 
 ## Download
 
-The Macro file can be downloaded [here](attachments/mac files/Add_position_2_ND.mac)
+The Macro file can be downloaded [here](attachments/mac%20files/Add_position_2_ND.mac)
