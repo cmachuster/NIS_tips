@@ -1,4 +1,4 @@
-The function is to be fund in the Menu Macro > Run Macro on Events…
+The function is to be fund in the Menu ***Macro > Run*** Macro on Events…
 
 The window that opens give the choice to launch Macro or commands during or before/after different events such as :
 - when opening images
@@ -16,6 +16,9 @@ One of the most commonly used function is the one launching a Macro/commands whe
 <img src="Macro-on-event-3.png" width="400">
 
 Next to one of this event you can click the 🔽 where you can choose to run a Macro (that has to be saved somewhere on the hard drive) or a command (from the Command List window)
+
+>[!tip] It is advised to save the `.mac` files in an easy to reach folder accessible by all users.
+>>[!warning] The NIS folder is not advised has it might get overwritten during update
 
 You can as well directly type (or copy/paste) multiple commands separated AND ending by a `;`
 

@@ -1,7 +1,7 @@
 
 ## context
 
-This macro will get the current X, Y, Z coordinates of the stage and create a position in the XY tab of "ND Acquisition".
+This macro will get the current X, Y, Z coordinates of the stage and create a position in the XY tab of the "ND Acquisition" Panel.
 
 If the PFS is locked, the PFS offset will be added to the list.
 

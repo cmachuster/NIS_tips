@@ -12,7 +12,7 @@ ND_StitchMultipoint(0,0,0,1,1);
 For further explanation of the arguments, please refer to this section : [[Stitching Multi-points#explanation of the command arguments|explanation of the command arguments without GA3]]
 ## MaxIP
 
-This command will generate a new ND file as the Z maximum intensity projection or MIP / MaxIP.
+This command will generate a new ND file as the Z maximum intensity projection or MIP / MaxIP[^1].
 The operation will take place even in multi-dimension files (with time and/or multi-positions)
 
 ```c
@@ -22,3 +22,5 @@ ND_CreateMaxIntProjectionImageZ()
 ## Combining singles images into a Multi-point ND file
 ![[Merging opened documents into a multipoint ND#^d668ad]]
 ![[Merging opened documents into a multipoint ND#^6df04b]]
+
+[^1]: https://en.wikipedia.org/wiki/Maximum_intensity_projection
