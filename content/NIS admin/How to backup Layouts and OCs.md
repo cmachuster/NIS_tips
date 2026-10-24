@@ -1,0 +1,1 @@
+In NIS it is possible to save the visual organization of the software, the layouts, and the different Optical Configuration as `.xml` files in order to reload them later or to share them on other machines.
