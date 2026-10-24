@@ -1,8 +1,8 @@
 This section gathers often used tips to make NIS use smoother.
 ## summary
 1. Motorized stage calibration
-2. [[General rules for OCs|Optical Configuirations - notions]]
-3. Backuping Optical Configurations and Layouts
+2. [[General rules for OCs|Optical Configurations - notions]]
+3. [[How to backup Layouts and OCs]]
 4. [[Making sure parafocality is ON with Ti2E in NIS]]
 5. [[Adjusting Auto-LUT default settings]]
 6. Macros :
