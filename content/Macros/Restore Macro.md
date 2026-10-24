@@ -1,9 +1,9 @@
 
-> [!NOTE]
-> This Macro is design to reload silently (without questions from NIS) backup files of the stored Layouts and Optical Configurations
-> It is often used at NIS startup or shutdown via the [[Run Macro on Events]] option
+## Context
+This Macro is design to reload silently (without questions from NIS) backup files of the stored Layouts and Optical Configurations (see [[How to backup Layouts and OCs]]).
+It is often used at NIS startup or shutdown via the [[Run Macro on Events]] option
 
-## code
+## Code
 ```c
 // Restore Layout
 RestoreLayoutsEx(« C:\Nikon Service\xxx », 1);
@@ -21,7 +21,7 @@ ND_ResetLambdaExp;
 
 ### RestoreLayouts and RestoreOptConf
 
-RestoreLayoutsEx and RestoreOptConfEx will reload the `.xml` files containing the backups (see [[How to backup Layouts and OCs]] ) of respectively the Layouts and the Optical configurations.
+RestoreLayoutsEx and RestoreOptConfEx will reload the `.xml` files containing the backups of respectively the Layouts and the Optical configurations.
 
 The "Ex" versions of this command unlock argument choices that can be useful, such as the "1" argument that bypass the confirmation prompt when reloading backup files.
 

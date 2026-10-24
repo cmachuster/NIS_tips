@@ -1,5 +1,5 @@
 
-## code 
+## Code 
 
 This macro was used to fuse multiple snapshots (without Z or time points) but with the same amount of channels into ONE single multi-point ND file. ^d668ad
 
