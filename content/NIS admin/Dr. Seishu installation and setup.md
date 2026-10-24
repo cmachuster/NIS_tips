@@ -1,8 +1,8 @@
 ![[DrSeishu.gif]]
 
-## context
+## Context
 
-Dr. Seishu is a tool that has several functions related to support and troubleshooting of NIS-Elements and Nikon hardware. This guide explains most of the different options and functions. 
+Dr. Seishu is a tool that has several functions related to support and troubleshooting of NIS-Elements and Nikon hardware. This guide[^1] explains most of the different options and functions. 
 >[!warning] Use this tool after instructed by Nikon support or service staff.
 
 > [!NOTE] download link to the latest Dr. Seishu here : https://www.niwiki.nl/Wiki/index.cgi?topic=3293
@@ -62,3 +62,5 @@ Verify that contact information is still correct and press **Start** to start th
 
 Dr. Seishu generates report zip files with the extension `.srtr`. 
 The .srtr files can be opened using the 7-zip file manager 7zFM.exe (https://www.7-zip.org).
+
+[^1]: Full Guide downloadable [here](attachments/HowToDrSeishu.pdf)
