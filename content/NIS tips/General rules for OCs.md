@@ -8,7 +8,7 @@ Depending on the microscope and the installed hardware, an optical con
 - **Illumination mode** : transmitted light, fluorescence, DIC, or other available techniques.
 - **Optical path selection** : excitation and emission filters, dichroic mirrors, shutters, and light-path routing.
 - **Optical components** : selected objective, magnification, or other motorized optical elements.
-- **Acquisition-related settings** : camera port or detector path and other hardware parameters associated with the selected imaging mode.
+- **Acquisition settings** : camera port or detector path and other hardware parameters associated with the selected imaging mode.
 
 >[!note] N.B.
 >This OCs can be saved as an `.xml` file to be restored in the future or shared, see [[How to backup Layouts and OCs]]
@@ -32,56 +32,43 @@ by setting them manually on the microscope or the Acquisition Panel.
 ### Optical configuration window
 
 The "Optical configuration" Window should pop out:
-![[OC - creation - annotated_numbered.png|300]]
+![[OC - creation - annotated_numbered.png|500]]
 
 This window is very important to make sure the OC behave the way you want it. 
 It basically gives the choice to set what part of microscope should move when you click on it and/or how the resulting image should look like.
 Here are some descriptions of this window :
 1. Name of the OC : gives the name of the OC itself
 2. Camera Settings : If clicked the OC will remember the settings of the camera, such as the binning or the readout mode. If the "Use Stored ROI" box is ticked, the OC will also remember the crop of the camera (if you want to force it)
-3. Channel Setup : If clicked 
+3. Channel Setup : If clicked the OC will integrate channel information, it will recall a channel name (see below in 4.) and an associated false color (see in 5.)
 4. Name of the channel: gives the name of the channel that will be recorded in the metadata and displayed in the acquired image
-![[NIS_image_window_annotated.png|200]]
-5. Channel false color :
-6. Microscope setting :
-7. Used devices : 
+![[NIS_image_window_annotated_zoomed.png]]
+5. Channel false color : the channel will be linked to a false color. The false color can be set "Automatically" (NIS will use the color associated with the used emission filter) or "Manually"
+6. Microscope setting : If clicked NIS will remember to set the designated microscope component (in 7.) in a specific postions
 
-
-
-
-
-8. Configure the optical hardware.
-Set the relevant optical components to the required positions, including excitation and emission filters, dichroic mirrors, shutters, light-path selectors, and other motorized devices available in the system.    
-3. Configure the associated acquisition hardware.
-Select the appropriate detector or camera path and any hardware settings that need to be associated with the imaging mode.    
-4. Verify the optical path.
-Check that the selected components are correctly positioned and that the resulting image is consistent with the intended imaging conditions.    
-5. Save the Optical Configuration.
-Store the current optical state as an OC with a meaningful name, typically identifying the channel or imaging mode.    
-6. Validate recall and reproducibility.
-Switch to another configuration, then recall the new OC and verify that the microscope returns to the expected optical state.
-
-
-
-
+## Assign Parameters when OC changes
+If while using an OC a parameter is changed (filter, light source used,...) NIS will detect that something is different and a "❗" will appear next to the name of the OC.
+### looking for differences
+If faced with a "❗" not knowing its origin, it is possible to right-click on the OC and go to "Show differences". NIS will show when changed from the registered.
+### assigning the changes
+If what caused the "❗" is the desired effect, then you can update the OC by as well right-click on it and go to "Assign microscope settings" or "Assign camera settings" depending on which setting has been changed.
 
 ## recommanded settings when creating an OC
-Here are some recommended parameters to set when creating new OCs
+Here are some recommended parameters to set when creating new OCs to make NIS use smoother :
 
 <img src="OC - annotated.png" width="500">
 
 1. uncheck light source « xxx Power » used devices → it applies to every light sources linked to the OCs : Lasers, AOTF, LEDs (transmission and EPI)
-2. Set an Active Shutter (Shutter that switches ON during acquisition and OFF when not acquiring) for the OC → should the main shutter for the light source
+2. Set an Active Shutter (Shutter that switches ON during acquisition and OFF when not acquiring) for the OC → should the main shutter for the light source -> it will minimize the chances to bleach the sample when not in "Live"
 >[!warning] make sure that the chosen Active Shutter is not a mechanical one
-3. uncheck "Objective"
+3. uncheck "Objective" -> Minimize the risks of "accidents" with immersion.
 
 ### also
 - Always check the box for camera settings, this is often needed for use in ND Acquisition
 - The channel name can be different from the OC name, and should only refer to the colour / wavelength of the emission light
-### extra parameters to take into account with OCs
+## extra parameters to take into account with OCs
 Global OC settings exist when it comes to automatically save values.
 
-As they are global (will apply to all **OCs**) they are found in the « Options » window, in the « General » section.
+As they are global (will apply to all **OCs**) they are found in the « Options » window (found in the menu Edit > Options), in the « General » section.
 
 <img src="Option-general - annotated.png" width="400">
 
