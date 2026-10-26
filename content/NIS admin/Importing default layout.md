@@ -7,7 +7,7 @@ A folder « NIS_install » is available on the common « SAS Service Training
 >[!danger] the « Nikon Service » spelling is important
 
 <div style="text-align: center;">
-  <img src="Install macro.png" width="400">
+  <img src="Install_macro.png" width="400">
 </div>
 
 The « NIS_install » folder contains :
