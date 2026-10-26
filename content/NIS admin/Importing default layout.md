@@ -1,4 +1,6 @@
 
+
+>[!info] download link [here](attachments/NIS%20install.zip)
 ## Context
 A macro has been developped to speed up the setup of NIS after the installation.
 
@@ -13,11 +15,11 @@ A folder « NIS_install » is available on the common « SAS Service Training
 The « NIS_install » folder contains :
 -  a default layout that will be loaded when the macro will be launched
 - a macro that will install the layout and set different NIS settings
-- a readme.txtfile explaining the launch of the macro
+- a readme.txt file explaining the launch of the macro
 
 ## launching the Macro
 
-in NIS go to Macro > Run Macro From Files... and open the file `C:\Nikon Service\NIS_install\Layout configuration.mac`
+in NIS go to ***Macro > Run Macro From Files...*** and open the file `C:\Nikon Service\NIS_install\Layout configuration.mac`
 
 Here is the macro in details :
 ```c

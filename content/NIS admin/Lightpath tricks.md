@@ -1,6 +1,14 @@
-### use case : Incorporate diascopic lightpaths into episcopic lights 
 
-Many users (especially those with Elements experience pre 5.30) find it frustrating to 2 click between brightfield and epi when setting up their experiments (lightpath + OC), this removes that hurdle so a single click (OC) is needed.
+## context
+Lighpath have been introduced in NIS 5.30 and are aiming at rationalizing the way microscopes are configured and how it should interact with its devices depending on the user application.
+
+Per default NIS will suggest some lightpaths from the devices that are declared in the Device Manager (see [[Administrating Device Manager - basics]])
+
+The following section aims at help you understand the logic and what can be done to adapt them to your needs
+## use case : Incorporate diascopic lightpaths into episcopic lights 
+
+Per default, if a fluorescence light source is declared, NIS will ceate two lightpaths for EPI fluorescence and Diascopic imaging (for the Eye or the camera)
+Some users prefer to avoid having to 2 click between DIA and EPI when setting up their experiments (lightpath + OC), this removes that hurdle so a single click (OC) is needed within one lightpath.
 
 <img src="lightpath-EPI - annotated.png" width="300">
 
