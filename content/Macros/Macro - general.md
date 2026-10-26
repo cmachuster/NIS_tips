@@ -14,7 +14,7 @@ You can copy the files as such or get inspiration from them.
 1. [[Add position to ND Acquisition|Adding position to "ND acquisition"]]
 2. [[Restore Macro|Restore Layouts and/or Optical configurations]]
 3. [[Non-Nikon Stage Initialization]]
-4. Automatically adjust Crest X-Light V3 Emission Iris with objectives
+4. [[Crest X-Light V3 Emission Iris Automatization]]
 5. [[Basical microscope commands|Basical microscope motion commands]]
 6. [[Basical analysis commands|Basical ND manipulation commands (MaxIP, Stitching...)]]
 7. Performing "TIRF" angles-stacks acquisition
