@@ -22,6 +22,7 @@ Define the observation conditions, such as :
 - opened/closed shutters in the lightpath 
 - other motorized devices available
 by setting them manually on the microscope or the Acquisition Panel.    
+
 ### making a new OC
  To create an OC you can either go to :
  - the menu Calibration >> New Optical Configuration...
@@ -29,6 +30,8 @@ by setting them manually on the microscope or the Acquisition Panel.
  - click on the "+" button on top right corner of the Acquisition Panel
  ![[Acquisition_panel_top_annotated.png|300]]
 
+![[OC_setting_up.png]]
+> OC creation once all the components are set
 ### Optical configuration window
 
 The "Optical configuration" Window should pop out:
