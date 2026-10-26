@@ -30,7 +30,7 @@ by setting them manually on the microscope or the Acquisition Panel.
  - click on the "+" button on top right corner of the Acquisition Panel
  ![[Acquisition_panel_top_annotated.png|300]]
 
-![[OC_setting_up.png]]
+![[OC_setting_up.png|450]]
 > OC creation once all the components are set
 ### Optical configuration window
 
