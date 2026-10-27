@@ -24,3 +24,8 @@ StgZ_Refocus();
 
 >[!info] Use Case
 > This Macro can be used as a Macro Panel button (see, [[Macro buttons]]) or at NIS startup (see, [[Run Macro on Events]])
+
+## Download
+
+The Macro file can be downloaded [here](attachments/mac%20files/stage_init.mac)
+

@@ -10,6 +10,8 @@ ND_StitchMultipoint(0,0,0,1,1);
 ```
 
 For further explanation of the arguments, please refer to this section : [[Stitching Multi-points#explanation of the command arguments|explanation of the command arguments without GA3]]
+
+>[!info] The Macro file can be downloaded [here](attachments/mac%20files/Stitch_MultiPoints.mac)
 ## MaxIP
 
 This command will generate a new ND file as the Z maximum intensity projection or MIP / MaxIP[^1].
@@ -19,6 +21,7 @@ The operation will take place even in multi-dimension files (with time and/or mu
 ND_CreateMaxIntProjectionImageZ()
 ```
 
+>[!info] The Macro file can be downloaded [here](attachments/mac%20files/MaxIP.mac)
 ## Combining singles images into a Multi-point ND file
 ![[Merging opened documents into a multipoint ND#^d668ad]]
 ![[Merging opened documents into a multipoint ND#^6df04b]]

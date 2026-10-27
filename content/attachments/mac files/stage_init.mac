@@ -1,0 +1,8 @@
+// Forces objective Escape
+StgZ_Escape();
+
+// Stage Initiatlization
+StgInitiateXY(0,0.00000,0.00000,1,0);
+
+// Exit from Escape
+StgZ_Refocus();
